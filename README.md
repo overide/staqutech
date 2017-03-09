@@ -28,5 +28,5 @@ Execute the **bot_cli.py** file with following commands -
 
 ## Notes
 1. Downloaded data will be saved in dynamically generated folder residing at **staqu_bot/data/**
-2. File naming convention - **[handle]\_[data].tsv** , Example _staqutech_follower.tsv_ , _staqutech_tweet.tsv_
+2. File naming convention - **[handle]\_[data].tsv** , Example _staqutech_followers.tsv_ , _staqutech_tweets.tsv_
 3. Files are opened in **a+** mode, so new data will be appended in existing file with same name
