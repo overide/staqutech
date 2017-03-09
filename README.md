@@ -17,7 +17,7 @@ Execute the **bot_cli.py** file with following commands -
 ```
 * **-t** or **--tweet** : Flag specify downloading the tweet data, example
 ```python
->>> python bot_cli.py staqutech -t
+>>> python bot_cli.py -h staqutech -t
 ```
 * **--help** : Open the help menu
 * Both follower and tweet data can be downloaded simultaneously, example
