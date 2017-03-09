@@ -3,11 +3,11 @@ A Twitter bot for scraping data related to given twitter handle.
 This project is a part of backend intern challenge @ www.staqu.com
 
 ## Project Configuration
-Specify your Consumer key,secret and Access key,secret in **configuration.py** file residing in **staqu_bot/scripts/** folder
+Specify your consumer key,secret and access key,secret in **configuration.py** file residing at **staqu_bot/scripts/** folder
 
 ## Usages
 Execute the **bot_cli.py** file with following commands - 
-* **-h** or **--handler** : To specify the twitter handler/screen_name (mandatory), example
+* **-h** or **--handle** : To specify the twitter handler/screen_name (mandatory), example
 ```python
 >>> python bot_cli.py -h staqutech
 ```
@@ -27,6 +27,6 @@ Execute the **bot_cli.py** file with following commands -
 * Specifying one flag is mandatory
 
 ## Notes
-1. Downloaded data will be saved in dynamically generated folder residing in **staqu_bot/data/**
+1. Downloaded data will be saved in dynamically generated folder residing at **staqu_bot/data/**
 2. File naming convention - **[handle]\_[data].tsv** , Example _staqutech_follower.tsv_ , _staqutech_tweet.tsv_
 3. Files are opened in **a+** mode, so new data will be appended in existing file with same name
