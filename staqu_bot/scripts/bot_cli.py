@@ -21,7 +21,7 @@ def sys_args_handler(args):
 Usages : bot_cli [option] [argument] [flag] \n
 Mandatory arguments to long options are mandatory for short options too.
 \t -h,  --handle\t Set handle of the user
-\t -f,  --follower\t Flag to download follower data
+\t -f,  --follower Flag to download follower data
 \t -t,  --tweet\t Flag to download tweet data 
 \t      --help\t Display the help and exit""")
         sys.exit()
